@@ -625,12 +625,12 @@
               handlePuxada();
             } else {
               console.error('Elementos de palpites não encontrados:', { animalSelect, bancaSelect, palpiteOutput });
-              palpitesContainer.innerHTML = '<p class="error">Erro ao carregar a seção Palpites. Contate o suporte: <a href="https://wa.me/5583991177252">WhatsApp</a></p>';
+              palpitesContainer.innerHTML = '<p class="error">Erro ao carregar a seção Palpites. Contate o suporte: <a href="https://wa.me/5583994073892">WhatsApp</a></p>';
             }
           }
         } catch (e) {
           console.error('Erro na função mostrar:', e);
-          document.body.innerHTML = '<p class="error">Erro crítico ao carregar a seção. Contate o suporte: <a href="https://wa.me/5583991177252">WhatsApp</a></p>';
+          document.body.innerHTML = '<p class="error">Erro crítico ao carregar a seção. Contate o suporte: <a href="https://wa.me/5583994073892">WhatsApp</a></p>';
         }
       }
 
@@ -761,7 +761,7 @@
           console.error('Erro na função displayPalpites:', e);
           const palpiteOutput = document.getElementById('palpiteOutput');
           if (palpiteOutput) {
-            palpiteOutput.innerHTML = '<p class="error">Erro ao carregar os palpites. Contate o suporte: <a href="https://wa.me/5583991177252">WhatsApp</a></p>';
+            palpiteOutput.innerHTML = '<p class="error">Erro ao carregar os palpites. Contate o suporte: <a href="https://wa.me/5583994073892">WhatsApp</a></p>';
           }
         }
       }
@@ -785,7 +785,7 @@
           console.error('Erro na função populateAnimalSelect:', e);
           const puxadaResult = document.getElementById('puxadaResult');
           if (puxadaResult) {
-            puxadaResult.innerHTML = '<p class="error">Erro ao carregar os animais. Contate o suporte: <a href="https://wa.me/5583991177252">WhatsApp</a></p>';
+            puxadaResult.innerHTML = '<p class="error">Erro ao carregar os animais. Contate o suporte: <a href="https://wa.me/5583994073892">WhatsApp</a></p>';
           }
         }
       }
@@ -829,7 +829,7 @@
           console.error('Erro na função handlePuxada:', e);
           const puxadaResult = document.getElementById('puxadaResult');
           if (puxadaResult) {
-            puxadaResult.innerHTML = '<p class="error">Erro ao carregar as puxadas. Contate o suporte: <a href="https://wa.me/5583991177252">WhatsApp</a></p>';
+            puxadaResult.innerHTML = '<p class="error">Erro ao carregar as puxadas. Contate o suporte: <a href="https://wa.me/5583994073892">WhatsApp</a></p>';
           }
         }
       }
@@ -841,7 +841,7 @@
           const gerarPalpitesBtn = document.getElementById('gerarPalpites');
           if (!bancaSelect || !gerarPalpitesBtn) {
             console.error('Elementos bancaSelect ou gerarPalpitesBtn não encontrados');
-            document.body.innerHTML = '<p class="error">Erro ao carregar a página. Contate o suporte: <a href="https://wa.me/5583991177252">WhatsApp</a></p>';
+            document.body.innerHTML = '<p class="error">Erro ao carregar a página. Contate o suporte: <a href="https://wa.me/5583994073892">WhatsApp</a></p>';
             return;
           }
 
@@ -862,7 +862,7 @@
           mostrar('acertos');
         } catch (e) {
           console.error('Erro na inicialização:', e);
-          document.body.innerHTML = '<p class="error">Erro ao carregar a página. Contate o suporte: <a href="https://wa.me/5583991177252">WhatsApp</a></p>';
+          document.body.innerHTML = '<p class="error">Erro ao carregar a página. Contate o suporte: <a href="https://wa.me/5583994073892">WhatsApp</a></p>';
         }
 
         if ('serviceWorker' in navigator) {
@@ -875,7 +875,7 @@
       });
     } catch (e) {
       console.error('Erro global:', e);
-      document.body.innerHTML = '<p class="error">Erro crítico ao carregar a página. Contate o suporte: <a href="https://wa.me/5583991177252">WhatsApp</a></p>';
+      document.body.innerHTML = '<p class="error">Erro crítico ao carregar a página. Contate o suporte: <a href="https://wa.me/5583994073892">WhatsApp</a></p>';
     }
   </script>
 </body>
